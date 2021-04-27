@@ -1,0 +1,41 @@
+.carousel-caption{
+    height:  98vh;
+    right: 59%;
+    color: white;
+}
+#ca{
+    border: gray solid 2px;
+    border-radius: 0px;
+    background-color:ghostwhite;
+    height: 220px;
+}
+a{
+    text-decoration: none;
+}
+ #resources{
+     background-image: url("../img/reso.png");
+     background-size: cover;
+ }
+ #events{
+     background-image: url("../img/event.jpeg");
+     background-size: cover;
+ }
+ #gear{
+     background-image: url("../img/gear.jpg");
+     background-size: cover;      
+ }
+a{
+    text-decoration: none;
+}
+
+#team {
+    font-family: 'Love Ya Like A Sister', cursive;  padding-top: 20px;
+    padding-top: 20px;
+  }
+  
+  .team-overlay {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  h1 {text-align: center;}
