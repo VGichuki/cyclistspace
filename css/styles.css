@@ -45,3 +45,21 @@ a{
       background-color: gray;
   }
   
+  h1 {text-align: center;}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .footer__social{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  .footer{
+    background-color: rgba(0, 0, 0, 0.7)
+  }
