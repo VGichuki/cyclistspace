@@ -45,3 +45,28 @@ a{
       background-color: gray;
   }
   
+  h1 {text-align: center;}
+  .contacts {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+  }
+  input {
+    text-decoration: none;
+    border: 1px solid grey;
+    background-color: white;
+    padding-left: 10%;
+    margin-right: 10%;
+    color: white;
+    column-gap: 5%;
+    text-align: center;
+  }
+  .textarea,
+  textarea {
+    color: black;
+    width: 800px;
+    padding: 5%;
+    text-align: center;
+  }
