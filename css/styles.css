@@ -38,4 +38,10 @@ a{
     width: inherit;
     background-color: rgba(0, 0, 0, 0.7);
   }
-  h1 {text-align: center;}
+  h1,h2 {text-align: center;}
+  
+
+  .resources-overlay {
+      background-color: gray;
+  }
+  
