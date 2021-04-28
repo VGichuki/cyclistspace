@@ -44,6 +44,7 @@ a{
   .resources-overlay {
       background-color: gray;
   }
+<<<<<<< HEAD
 
   a.figure-link {
       position: absolute;
@@ -56,3 +57,24 @@ a{
   }
 
   
+=======
+  
+  h1 {text-align: center;}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .footer__social{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+  }
+  .footer{
+    background-color: rgba(0, 0, 0, 0.7)
+  }
+>>>>>>> 535a92ce17dcecd8ae2c35797b8fb41dc7d95410
