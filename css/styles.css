@@ -46,27 +46,20 @@ a{
   }
   
   h1 {text-align: center;}
-  .contacts {
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
     text-align: center;
-  }
-  input {
     text-decoration: none;
-    border: 1px solid grey;
-    background-color: white;
-    padding-left: 10%;
-    margin-right: 10%;
     color: white;
-    column-gap: 5%;
+  }
+  .footer__social{
     text-align: center;
   }
-  .textarea,
-  textarea {
-    color: black;
-    width: 800px;
-    padding: 5%;
+  form{
     text-align: center;
+  }
+  .footer{
+    background-color: rgba(0, 0, 0, 0.7)
   }
