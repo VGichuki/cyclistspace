@@ -23,7 +23,7 @@ h3 {
   color: white;
 }
 #mainpage {
-  background-image: url(/img/background02.jpg);
+  background-image: url(../img/background02.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
