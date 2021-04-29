@@ -29,7 +29,7 @@ function addItem() {
     var cand = document.getElementById("candidate");
     var li = document.createElement("li");
     li.setAttribute('id', cand.value);
-    var appnddata = document.createTextNode("" + candidate + "  " + candidate2 + " " + candidate3 + " ");
+    var appnddata = document.createTextNode("Name :" + candidate + " Gear : " + candidate2 + "Price : " +  candidate3 + " ");
     // li.appendChild(document.createTextNode(candidate.value));
     // li.appendChild(document.createTextNode(candidate2.value));
 
