@@ -112,6 +112,7 @@ a{
     text-align: center;
     color: white;
   }
+  h1,h3{text-align: center;}
   .fa {
     padding: 20px;
     font-size: 30px;
