@@ -2,6 +2,18 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+.navbar-link {
+  color: white;
+  font-weight: bolder;
+}
+.bg-dark {
+  background: transparent !important;
+}
+.bg-dark.scrolled{
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+
 .carousel-caption{
     height:  98vh;
     right: 59%;
@@ -11,8 +23,11 @@ h3 {
   color: white;
 }
 #mainpage {
-  /* background-image: url(/img/background02.jpg); */
-  background-color: #8A897C;
+  background-image: url(/img/background02.jpg);
+  /* background-color: #8A897C; */
+  /* background-color: #EBEBEB; */
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  background-color: #C0C0C0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,6 +40,7 @@ h3 {
     border-radius: 0px;
     background-color:ghostwhite;
     height: 220px;
+    
 }
 a{
     text-decoration: none;
@@ -38,7 +54,7 @@ a{
      background-size: cover;
  }
  #events{
-     background-image: url("../img/event.jpeg");
+     background-image: url("../img/events.jpg");
      background-size: cover;
  }
  #gear{
@@ -52,6 +68,7 @@ a{
 #team {
     font-family: 'Love Ya Like A Sister', cursive;  padding-top: 20px;
     padding-top: 20px;
+    color: white;
   }
   
   .team-overlay {
@@ -63,7 +80,7 @@ a{
   
 
   .resources-overlay {
-      background-color: gray;
+      background-color:rgba(0, 0, 0, 0.8);
   }
   .
 
@@ -80,13 +97,25 @@ a{
   //about us styling
 
 #about-us.p{
+  color: white !important;
   text-align: center;
+  
+}
+.about-overlay {
+  height: inherit;
+  width: inherit;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.about-section{
   color: white;
 }
 
   
   
-  h1 {text-align: center;}
+  h1 {
+    text-align: center;
+    color: white;
+  }
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -105,3 +134,44 @@ a{
     background-color: rgba(0, 0, 0, 0.7)
   }
 
+  .navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 0px 0px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
+  
+  .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    
+  }
+  
+  .navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: black;
+  }
+  
+  .navbar a.active {
+    
+    color: white;
+  }
+  
+
+ 
