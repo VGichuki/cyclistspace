@@ -24,10 +24,6 @@ h3 {
 }
 #mainpage {
   background-image: url(/img/background02.jpg);
-  /* background-color: #8A897C; */
-  /* background-color: #EBEBEB; */
-  /* background-color: rgba(0, 0, 0, 0.1); */
-  background-color: #C0C0C0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
