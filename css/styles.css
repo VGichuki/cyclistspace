@@ -72,7 +72,7 @@ a{
     width: inherit;
     background-color: rgba(0, 0, 0, 0.7);
   }
-  h1,h2 {text-align: center;}
+  h1,h2{text-align: center;}
   
 
   .resources-overlay {
@@ -108,10 +108,11 @@ a{
 
   
   
-  h1 {
+  h1{
     text-align: center;
     color: white;
   }
+  h1{text-align: center;}
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -168,6 +169,8 @@ a{
     
     color: white;
   }
-  
+  h4{
+    text-align: center;
+  }
 
  
