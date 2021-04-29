@@ -1,7 +1,3 @@
-$(window).scroll(function(){
-    $('.navbar').toggleClass('scrolled', $(this).scrollTop() > 680);
-    });
-
 function clickedSub(){
     event.preventDefault()
     var name = $("#name").val()
