@@ -2,6 +2,7 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
 .navbar-link {
   color: white;
   font-weight: bolder;
@@ -32,11 +33,14 @@ h3 {
 }
 
 #ca{
-    border: gray solid 2px;
+    /* border: gray solid 2px; */
     border-radius: 0px;
-    background-color:ghostwhite;
+    /* background-color:ghostwhite; */
     height: 220px;
     
+}
+h3.ft{
+  text-align: center;
 }
 a{
     text-decoration: none;
@@ -88,6 +92,19 @@ a{
   }
   .card {
       margin: 25px;
+      border: none;
+  }
+  .cardft {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: transparent;
+
+  }
+  .card-group {
+    height
+  }
+  .card-bodyft h5 {
+    color: white;
+    text-align: center;
   }
 
   //about us styling
@@ -139,6 +156,7 @@ a{
     width: 100%;
     top: 0;
     z-index: 99;
+    
   }
   
   .navbar a {
