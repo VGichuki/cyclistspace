@@ -2,6 +2,10 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
 
 .navbar-link {
   color: white;
@@ -24,12 +28,20 @@ h3 {
   color: white;
 }
 #mainpage {
-  background-image: url(../img/background02.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
  
 
+}
+#eventspage{
+  background-image: url(../img/events08.jpg);
+  background-repeat: no-repeat;
+  height: 45vh;
+  background-position: left;
+  text-align: center;
+  color: black;
 }
 
 #ca{
