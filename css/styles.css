@@ -41,13 +41,10 @@ h3 {
   height: 45vh;
   background-position: left;
   text-align: center;
-  color: black;
 }
 
 #ca{
-    /* border: gray solid 2px; */
     border-radius: 0px;
-    /* background-color:ghostwhite; */
     height: 220px;
     
 }
@@ -57,10 +54,6 @@ h3.ft{
 a{
     text-decoration: none;
 }
-/* #features {
-  background-image: url(/img/resource07.jpg);
-  background-position: center;
-} */
  #resources{
      background-image: url("../img/reso.png");
      background-size: cover;
@@ -107,7 +100,6 @@ a{
       border: none;
   }
   .cardft {
-    /* background-color: rgba(0, 0, 0, 0.1); */
     background-color: transparent;
 
   }
@@ -202,5 +194,11 @@ a{
   h4{
     text-align: center;
   }
-
- 
+  .navbar-gear {
+    background: solid;
+  }
+.eventscontact {
+  background-image: url(../img/background01.jpg);
+  background-position: center;
+  background-size: cover;
+}
