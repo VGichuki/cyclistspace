@@ -2,6 +2,11 @@ html{
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
 .navbar-link {
   color: white;
   font-weight: bolder;
@@ -23,20 +28,31 @@ h3 {
   color: white;
 }
 #mainpage {
-  background-image: url(../img/background02.jpg);
+  background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
  
 
 }
+#eventspage{
+  background-image: url(../img/events08.jpg);
+  background-repeat: no-repeat;
+  height: 45vh;
+  background-position: left;
+  text-align: center;
+  color: black;
+}
 
 #ca{
-    border: gray solid 2px;
+    /* border: gray solid 2px; */
     border-radius: 0px;
-    background-color:ghostwhite;
+    /* background-color:ghostwhite; */
     height: 220px;
     
+}
+h3.ft{
+  text-align: center;
 }
 a{
     text-decoration: none;
@@ -88,6 +104,19 @@ a{
   }
   .card {
       margin: 25px;
+      border: none;
+  }
+  .cardft {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: transparent;
+
+  }
+  .card-group {
+    height
+  }
+  .card-bodyft h5 {
+    color: white;
+    text-align: center;
   }
 
   //about us styling
@@ -140,6 +169,7 @@ a{
     width: 100%;
     top: 0;
     z-index: 99;
+    
   }
   
   .navbar a {

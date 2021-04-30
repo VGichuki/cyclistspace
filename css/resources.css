@@ -1,9 +1,42 @@
 #resourcespage{
     /* background-color: #2E382E ; */
     /* background-image: url(/img/background02.jpg); */
-    padding: 20px;
-    margin-top: 100px ;
+    /* padding: 20px;
+    margin-top: 100px ; */
 }
+.resources-page{
+    /* background-color: rgb(237, 234, 234); */
+}
+
+
 .navbar{
     background-color: rgba(0, 0, 0, 0.8 );
+}
+.header {
+    background-image: url(../img/resource06.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    height: 45vh;
+
+}
+.header h2 {
+    padding-top: 250px;
+}
+a {
+    color: inherit;
+}
+a:hover{
+    color: grey;
+}
+
+
+.contactrs {
+    background-image: url(../img/background02.jpg);
+    background-position: 105%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contacts h1{
+    color: black;
 }
